@@ -58,13 +58,14 @@ li{
     font-weight: bold;
     font-size: 70px;
     width: 32rem;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 3rem;    
 }
 .hero-h2{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.302);
     padding: 1rem;
     font-weight: bold;
+    border-radius: 7px;
 }
 .collapsee{
     max-height: 7rem;
