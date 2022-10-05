@@ -1,8 +1,10 @@
 body { 
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background-color: #989a9a62!important;
+    max-width: 100%;
+
 }
 
 .containerP{
@@ -20,6 +22,7 @@ body {
 }
 .container-icon i {
     margin-right: 17px;
+    font-size: 27px;
 }
 .container-icon p {
     margin-left: 17px;
@@ -64,14 +67,14 @@ li{
     font-weight: bold;
 }
 .collapsee{
-    height: 7rem;
+    max-height: 7rem;
     background-color: #0077b6;
     color: white;
     
 }
 .collapsee p {
     font-size: 40px;
-    width: 60rem;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -80,6 +83,11 @@ li{
     margin-bottom: 0;
     font-weight: bold;
 
+}
+.subt {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
 }
 .line {
     height:.2rem;
@@ -94,13 +102,13 @@ li{
     margin-top: 3rem;
 }
 .about-image img{
-    width: 30rem;
+    max-width: 30rem;
     margin-right: 4rem;    
 }
 .about-text p {
-    width: 30rem;
+    max-width: 30rem;
     font-size: 21px;
-    font-weight:500;
+    font-weight:300;
 }
 .about-text button {
     background-color: #0077b6;
@@ -118,7 +126,7 @@ li{
 }
 .linen {
     height:.1rem;
-    background-color: black;
+    background-color: rgba(61, 57, 57, 0.414);
     margin: 0 auto;
     margin-top: 4rem;
     width: 87%;
@@ -133,20 +141,24 @@ li{
 }
 .items-mision {
     background-color: #0077b6;
+    border-radius: 5px;
     color: #fff;
-    width: 35rem;
+    width: 30rem;
     margin-right: 4rem;
-    padding: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
     -webkit-box-shadow: 1px 2px 47px 0px rgba(141,146,235,1);
     -moz-box-shadow: 1px 2px 47px 0px rgba(141,146,235,1);
     box-shadow: 1px 2px 47px 0px rgba(141,146,235,1);
 }
 .items-vision {
     background-color: #0077b6;
+    border-radius: 5px;
+
     color: #fff;
-    width: 35rem;
-    padding: 2rem;
-    -webkit-box-shadow: 1px 2px 47px 0px rgba(141,146,235,1);
+    width: 30rem;
+    padding-top: 1.5rem;
+        -webkit-box-shadow: 1px 2px 47px 0px rgba(141,146,235,1);
     -moz-box-shadow: 1px 2px 47px 0px rgba(141,146,235,1);
     box-shadow: 1px 2px 47px 0px rgba(141,146,235,1);
 
@@ -172,7 +184,15 @@ footer p {
     font-size: 20px;
     line-height: 17px;
 }
-
+.navegacion-principal {
+    display:flex;
+    flex-direction: column;
+    
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
 .text-fin {
     display: flex;
     flex-direction: column;
@@ -186,4 +206,206 @@ footer p {
 .icon-fin i {
     margin-bottom: 1rem;
     font-size: 25px;
+}
+.roww{
+    margin: 0 auto!important;
+    width: 80%;
+    text-align: center;
+    margin-top:4rem!important;
+    align-items: center;
+    background-color: rgba(236, 243, 248, 0.663);
+    padding: 1rem;
+    border-radius: 14px;
+    -webkit-box-shadow: 0px -1px 10px 0px rgba(125, 118, 118, 0.75);
+-moz-box-shadow: 0px -1px 10px 0px rgba(106, 100, 100, 0.75);
+box-shadow: 0px -1px 10px 0px rgba(103, 100, 100, 0.75);
+}
+.lead {
+    width:80%!important;
+    margin: 0 auto!important;
+    margin-top:2rem!important;
+
+}
+.nuestra {
+    background-image: url(./socios.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+}
+.donan {
+    background-image: url(./nh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+.volun {
+    background-image: url(./donaciones.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+.roww p{
+    font-size: 20px;
+}
+.val img {
+    max-width: 140px;
+    max-height: 140px;
+    
+    
+}
+.sept {
+    display:flex;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 3rem;
+
+}
+.cont{
+    display: flex;
+    font-size: 25px;
+    margin: 1rem;
+}
+.cont i {
+    margin-right: 20px;
+   color: green;
+
+}
+.cont p{
+    font-weight: 500;
+}
+.hour{
+    font-size: 15px;
+    margin-left: 2.3rem;
+}
+.lines{
+    height:1px;
+    background-color:#000;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    margin-right: 4rem;
+    justify-content: center;
+}
+.map{
+    display: flex;
+    align-items: center;
+    max-width: 100%!important;
+}
+.socios{
+    display: flex;
+   margin: 0 auto;
+   width: 80%;
+   justify-content: center;
+   align-items: center;
+}
+.socio1 img{
+   width: 30rem;
+  
+}
+.socio2 img{
+    width: 30rem;
+    
+}
+.fijo{
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 .3rem .4rem #444;
+    z-index: 200;
+   
+    background-color:#ede8b1;
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        font-size: 40px;
+    }
+    .hero-h2 {
+        font-size: 20px;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+    .about p {
+        margin-top: 1rem;
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+       
+    }
+    
+    .sept{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .socios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .socios img {
+        max-width: 100%;
+    }
+    .items-mision{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    .items-vision{
+
+    }
+}
+@media (max-width: 414px) {
+    .containerP{
+        height: 2rem;
+    }
+    .containerP p {
+        font-size: 14px;
+    }
+    .container-icon i {
+        font-size: 14px;
+    }
+    .nav img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .hero{
+        font-size: 16px;
+        text-align: left;
+    }
+    .hero-h2 {
+        font-size: 10px;
+        padding: 7px;
+
+    }
+    .collapsee p {
+        font-size: 15px;
+    }
+    .section h2{
+        margin: 2rem 4rem;
+        margin-bottom: 0;
+    }
+    .line{
+        margin-left: 4rem;
+        margin-bottom: 2rem;
+    }
+    .items p {
+        font-size: 17px;
+    }
+    footer {
+       display:flex;
+       flex-direction: column
+    }
+
 }
